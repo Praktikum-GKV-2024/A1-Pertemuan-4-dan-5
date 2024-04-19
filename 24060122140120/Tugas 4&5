@@ -1,0 +1,105 @@
+Bisma Wira Adi Wicaksono
+24060122140120
+Tugas 4&5 rangkuman
+
+LIGHTING
+Pencahayaan dalam Grafika: Konsep, Implementasi, dan Simulasi
+Pencahayaan memiliki peran krusial dalam grafika komputer, menggabungkan unsur realisme ke dalam dunia virtual untuk meningkatkan pengalaman visual. Dalam tulisan ini, kita akan menjelajahi konsep dasar pencahayaan, pentingnya implementasinya, dan cara mensimulasikannya melalui shader.
+
+Pengertian Pencahayaan
+Pencahayaan dalam konteks grafika melibatkan simulasi interaksi cahaya dengan permukaan dalam lingkungan virtual. Hal ini mencakup pemantulan, penyerapan, dan transmisi cahaya untuk menciptakan adegan visual yang menarik, mirip dengan fenomena di dunia nyata.
+
+Alasan Implementasi Pencahayaan
+Implementasi pencahayaan menjadi kunci dalam mencapai keterampilan visual yang tinggi dan menciptakan pengalaman imersif dalam ruang virtual. Dengan menggambarkan interaksi cahaya dan permukaan secara akurat, pencahayaan memberi kedalaman dan realisme pada adegan digital.
+
+Cara Implementasi Pencahayaan
+Implementasi pencahayaan melibatkan algoritma kompleks dan teknik pemrograman grafis di shader. Pemantulan spekular dan difus menjadi fokus utama, memungkinkan pengembang untuk mensimulasikan berbagai sifat cahaya dan permukaan.
+
+Mensimulasikan Cahaya dalam Shader
+Vertex shader memainkan peran penting dalam menghitung pencahayaan dengan mentransformasi posisi dan normal vertex ke dalam ruang kamera. Di sisi lain, shader fragmen digunakan untuk menghitung pemantulan spekular dan difus, memberikan detail visual yang lebih tinggi.
+
+Pemantulan Spekular dan Difus
+Pemantulan spekular dan difus adalah fenomena yang terjadi ketika cahaya memantul dari suatu permukaan.
+Pemantulan Difus:
+- Bagaimana Terjadi: Pemantulan difus terjadi pada permukaan yang kasar atau tidak rata. Ketika cahaya datang dan mengenai permukaan ini, energi cahaya tersebar ke segala arah. Ini terjadi karena struktur permukaan yang tidak rata memantulkan cahaya secara acak, menghasilkan pencahayaan yang merata di sekitar objek.
+- Kapan Terjadi: Pemantulan difus sering terjadi pada permukaan yang tidak mengkilap, seperti dinding yang dicat, kain, atau kayu yang kasar. Objek dengan pemantulan difus cenderung tidak memiliki pantulan yang terfokus atau kilauan yang kuat.
+- Mengapa Terjadi: Fenomena ini terjadi karena permukaan yang kasar tidak mampu memantulkan cahaya secara terarah. Sebaliknya, cahaya yang datang memantul ke segala arah, menciptakan pencahayaan yang merata tanpa adanya titik fokus tertentu.
+
+Pemantulan Spekular:
+- Bagaimana Terjadi: Pemantulan spekular terjadi pada permukaan yang halus atau rata. Ketika cahaya datang dan mengenai permukaan ini, cahaya dipantulkan secara terarah dengan sudut yang sama dengan sudut datangnya. Hal ini menciptakan efek pantulan yang terfokus dan terlihat lebih intens, seperti highlight atau kilauan.
+- Kapan Terjadi: Pemantulan spekular umumnya terjadi pada permukaan yang mengkilap, seperti kaca, logam yang dihaluskan, atau air. Objek dengan pemantulan spekular cenderung memiliki pantulan yang terfokus dan memberikan kesan permukaan yang halus atau mengkilap.
+- Mengapa Terjadi: Permukaan yang halus atau rata mampu memantulkan cahaya secara terarah karena tidak ada struktur permukaan yang mengganggu. Cahaya yang datang memantul kembali dengan sudut yang sama dengan sudut datangnya, menciptakan efek pantulan yang terfokus dan terlihat lebih intens.
+
+Cahaya Ambien
+Cahaya ambient (ambient light) adalah konsep penting dalam pencahayaan dalam grafika komputer. Mari bahas bagaimana, kapan, dan mengapa cahaya ambient digunakan:
+Bagaimana Terjadi:
+Cahaya ambient adalah cahaya yang hadir di lingkungan secara umum tanpa arah atau sumber cahaya yang spesifik. Ini adalah cahaya yang tersebar merata di seluruh scene, memberikan pencahayaan dasar yang meliputi semua objek tanpa memperhatikan arah datangnya cahaya.
+
+Kapan Digunakan:
+Cahaya ambient biasanya digunakan dalam situasi di mana kita ingin memberikan pencahayaan umum atau latar belakang dalam sebuah scene tanpa menekankan sumber cahaya spesifik. Contohnya, cahaya ambient sering digunakan untuk menciptakan suasana malam yang redup atau ruangan yang memiliki pencahayaan merata di seluruh area tanpa adanya sumber cahaya yang jelas.
+Mengapa Digunakan:
+Penggunaan cahaya ambient memiliki beberapa tujuan:
+1. Menciptakan Pencahayaan Merata: Cahaya ambient membantu mengurangi kesan bayangan yang terlalu gelap di area yang tidak langsung terkena cahaya langsung dari sumber cahaya utama. Ini membuat objek terlihat lebih jelas dan mencegah kontras yang berlebihan antara area yang terang dan gelap.
+2. Memberikan Atmosfer: Cahaya ambient juga dapat digunakan untuk menciptakan atmosfer tertentu dalam scene, seperti suasana malam yang tenang, suasana yang lebih dramatis, atau suasana yang lebih romantis. Ini membantu menciptakan pengalaman visual yang lebih lengkap dan mendalam bagi pengguna.
+3. Mengisi Ruang Kosong: Dalam situasi di mana tidak ada sumber cahaya utama yang jelas, cahaya ambient membantu mengisi ruang kosong dan memberikan kesan pencahayaan yang alami, meskipun tidak terdapat sumber cahaya langsung yang terlihat dalam scene.
+Dengan menggunakan cahaya ambient secara bijak, pengembang grafis dapat menciptakan visualisasi yang lebih menarik, realistis, dan mengesankan bagi pengguna. Cahaya ambient menjadi salah satu elemen penting dalam menciptakan nuansa dan atmosfer yang diinginkan dalam sebuah scene.
+
+SHADOW
+Bayangan (shadow) adalah representasi visual dari objek yang menghalangi cahaya, menciptakan area gelap di belakangnya. Mari bahas lebih lanjut mengenai bayangan:
+
+Bagaimana Terjadi:
+Bayangan terjadi ketika cahaya datang dari suatu sumber dan bertemu dengan objek yang memblokir jalannya. Ketika cahaya terhalang oleh objek tersebut, area di belakang objek tersebut akan menjadi gelap atau lebih redup dibandingkan dengan area sekitarnya yang terkena cahaya langsung.
+
+Kapan Terjadi:
+Bayangan terjadi dalam setiap situasi di mana ada sumber cahaya yang memancarkan cahaya, dan ada objek di antara sumber cahaya dan permukaan di belakangnya. Dalam konteks grafika komputer, bayangan sering digunakan untuk memberikan kesan kedalaman, dimensi, dan realisme pada visualisasi.
+
+Mengapa Terjadi:
+Fenomena bayangan terjadi karena cahaya bergerak dalam garis lurus dan tidak dapat melewati objek padat. Ketika cahaya bertemu dengan objek, ia akan terhalang dan area di belakang objek tersebut akan tidak terkena cahaya, menciptakan bayangan.
+
+Penggunaan bayangan dalam visualisasi grafis memiliki beberapa tujuan:
+1. Memberikan Kedalaman: Bayangan membantu memberikan kesan kedalaman pada sebuah scene, membedakan objek-objek yang berada di depan dan di belakang.
+2. Menambah Realisme: Dengan adanya bayangan, visualisasi grafis menjadi lebih realistis karena mencerminkan cara cahaya berinteraksi dengan objek di dunia nyata.
+3. Membuat Visual Lebih Menarik: Bayangan dapat digunakan untuk menciptakan efek dramatis atau menarik perhatian pada objek tertentu dalam scene.
+4. Mengindikasikan Pencahayaan: Bayangan juga dapat mengindikasikan arah dan intensitas pencahayaan dalam sebuah scene, memberikan informasi tambahan kepada pengamat tentang kondisi pencahayaan yang ada.
+
+Shadow mapping
+Shadow mapping adalah salah satu teknik yang digunakan dalam rendering grafis untuk menghasilkan bayangan yang realistis. Mari kita bahas lebih detail tentang shadow mapping:
+
+Bagaimana Shadow Mapping Bekerja:
+1. Render Depth Map: Langkah pertama dalam shadow mapping adalah merender depth map dari sudut pandang sumber cahaya. Depth map adalah representasi kedalaman setiap titik pada scene dari perspektif sumber cahaya.
+2. Hitung Bayangan: Ketika rendering scene utama, setiap titik dihitung apakah berada di dalam bayangan atau tidak berdasarkan informasi depth map. Jika titik tersebut memiliki nilai kedalaman yang lebih besar dari nilai depth map yang sesuai, maka titik tersebut berada di dalam bayangan.
+
+
+
+Kelebihan Shadow Mapping:
+1. Realisme: Shadow mapping dapat menghasilkan bayangan yang realistis dengan detail yang cukup baik, terutama dalam situasi dengan sumber cahaya yang bergerak atau kompleksitas scene yang tinggi.
+2. Efisiensi: Teknik ini relatif efisien karena depth map dapat dihasilkan sebelum rendering scene utama, meminimalkan overhead komputasi saat rendering scene utama.
+
+Tantangan Shadow Mapping:
+1. Aliasing: Salah satu tantangan utama adalah aliasing, di mana bayangan yang dihasilkan memiliki tepian yang kasar atau tidak halus. Hal ini terjadi karena resolusi depth map yang terbatas.
+2. Pencahayaan Tak Langsung: Shadow mapping lebih cocok untuk bayangan dari sumber cahaya langsung. Untuk bayangan dari pencahayaan tak langsung, seperti global illumination, teknik lain seperti ray tracing mungkin lebih sesuai.
+
+Implementasi Shadow Mapping:
+Implementasi shadow mapping melibatkan pengaturan depth map, perhitungan bayangan pada saat rendering scene utama, dan pengaturan parameter seperti resolusi depth map dan teknik filtering untuk mengatasi aliasing.
+
+PERSPECTIVE & ORTHOGRAPHIC
+Perspective dan orthographic adalah dua jenis proyeksi (projection) yang digunakan dalam rendering grafis untuk menghasilkan tampilan objek dalam sebuah scene. Mari kita bahas perbedaan dan karakteristik masing-masing proyeksi ini:
+
+Perspective Projection:
+1. Karakteristik: Perspective projection mempertahankan efek perspektif, di mana objek yang lebih dekat terlihat lebih besar dan objek yang lebih jauh terlihat lebih kecil. Ini menciptakan kesan kedalaman dan realisme dalam visualisasi.
+2. Contoh Penggunaan: Perspective projection sering digunakan dalam rendering scene 3D untuk menciptakan tampilan yang mirip dengan pandangan mata manusia. Hal ini membuat objek terlihat lebih alami dan terkait dengan persepsi visual manusia.
+
+
+
+Orthographic Projection:
+1. Karakteristik: Orthographic projection mengabaikan efek perspektif, sehingga semua objek terlihat dengan ukuran yang sama, terlepas dari jaraknya dari kamera atau mata pengamat. Ini menciptakan tampilan yang lebih datar dan tidak memiliki efek kedalaman.
+2. Contoh Penggunaan: Orthographic projection sering digunakan dalam desain teknis, ilustrasi teknis, atau ketika diperlukan tampilan yang lebih datar dan tidak terdistorsi oleh perspektif. Misalnya, peta, blueprint, atau diagram teknis sering menggunakan orthographic projection.
+
+Perbedaan Utama:
+1. Efek Perspektif: Perspective projection mempertahankan efek perspektif, sementara orthographic projection mengabaikan efek ini.
+2. Ukuran Objek: Dalam perspective projection, ukuran objek berubah sesuai dengan jaraknya dari kamera, sedangkan dalam orthographic projection, ukuran objek tidak dipengaruhi oleh jaraknya.
+
+Kapan Menggunakan Masing-Masing:
+- Gunakan perspective projection ketika ingin menciptakan tampilan yang realistis dengan efek perspektif, seperti dalam visualisasi 3D yang mirip dengan pandangan manusia.
+- Gunakan orthographic projection ketika ingin tampilan yang lebih datar dan tidak terpengaruh oleh efek perspektif, seperti dalam ilustrasi teknis atau diagram teknis.
+
