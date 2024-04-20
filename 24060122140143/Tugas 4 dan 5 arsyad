@@ -1,0 +1,35 @@
+Tugas GKV Pertemuan 4 dan 5
+
+Dalam konteks grafik komputasi visual, "Pencahayaan" merujuk pada proses menerapkan efek cahaya pada objek atau scene yang dirender dalam sebuah program atau aplikasi grafis. Pencahayaan adalah elemen kunci dalam menciptakan realisme dan nuansa dalam representasi visual objek 3D.
+
+Dalam dunia pencahayaan, beberapa aspek penting termasuk:
+
+- Pencahayaan Sumber: Menentukan posisi, arah, dan sifat cahaya yang bersumber dari sumber cahaya dalam scene, seperti lampu atau matahari.
+- Interaksi Cahaya-Permukaan: Bagaimana cahaya berinteraksi dengan permukaan objek, termasuk efek bayangan, penyerapan cahaya, pantulan, dan pembiasan.
+- Model Pencahayaan: Pendekatan matematis untuk memodelkan interaksi antara cahaya dan objek, seperti model Lambertian, Blinn-Phong, atau model fisik yang lebih kompleks seperti Cook-Torrance.
+- Efek Cahaya: Efek visual yang dihasilkan oleh pencahayaan, termasuk bayangan, highlight, pencahayaan ambient, pencahayaan difus, dll.
+
+Dengan menerapkan teknik pencahayaan yang sesuai, grafik komputer dapat menciptakan representasi visual yang lebih realistis dan menarik, yang sangat penting untuk aplikasi seperti permainan komputer, animasi film, simulasi, dan visualisasi ilmiah.
+
+Implementasi pencahayaan penting karena peran utamanya dalam meningkatkan realisme dan kualitas visual dari representasi objek atau scene yang dirender. Berikut adalah beberapa alasan mengapa pencahayaan penting dalam GKV:
+
+1. Realisme Visual: Pencahayaan menambah dimensi dan menciptakan nuansa realistis.
+2. Atmosfir dan Nuansa: Membantu menciptakan suasana yang diinginkan dalam scene.
+3. Detail dan Kedalaman: Menyoroti detail dan struktur objek untuk meningkatkan kedalaman visual.
+4. Konsistensi Visual: Menjaga keseimbangan visual dan koherensi dalam scene.
+5. Kreativitas Artistik: Memberikan ekspresi artistik dan menciptakan suasana yang diinginkan.
+
+Langkah-langkah umum untuk mengimplementasikan pencahayaan dalam GKV meliputi:
+
+1. Pemodelan Sumber Cahaya
+2. Perhitungan Intensitas Cahaya
+3. Pemilihan Model Pencahayaan
+4. Pencahayaan Ambient
+5. Efek Cahaya Lanjutan
+6. Teknik Rendering
+
+Bayangan adalah efek visual yang dihasilkan ketika suatu objek memblokir cahaya dari sumbernya, menciptakan area gelap di belakang objek tersebut. Bayangan memberikan kesan kedalaman dan realisme pada representasi visual objek dalam scene.
+
+Hubungan antara "Shadow" dan "Lighting" sangat erat karena bayangan terbentuk sebagai hasil dari interaksi antara objek, sumber cahaya, dan pencahayaan dalam scene. Bayangan memperkaya efek visual pencahayaan dan diperlukan pemodelan serta rendering untuk menciptakan bayangan yang realistis.
+
+Dengan demikian, "Shadow" dan "Lighting" saling terkait dalam menciptakan representasi visual yang realistis dalam konten grafis yang dibuat. Bayangan yang dihasilkan oleh interaksi antara objek dan cahaya memberikan kesan kedalaman dan dimensi yang penting untuk mencapai kualitas visual yang memuaskan.
