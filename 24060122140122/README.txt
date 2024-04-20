@@ -1,5 +1,5 @@
-Muhammad Anugerah Ramadhan
-24060122140180
+Nama: Muhammad Rayyis Budi Prasetyo
+Nim: 24060122140112
 Tugas 4&5
 
                                                   LIGHTNING
